@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import About from './component/About'
+import Robot from './component/Robot-Video'
+import Courses from './component/Courses'
 import Experience from './component/Experience'
 import Footer from './component/Footer'
 import Header from './component/Header'
@@ -16,8 +18,14 @@ class App extends Component {
           <div id="main">
             <Home />
             <About />
-            <Experience />
-            <Portfolio />
+            <div id = "experiences">
+              <Experience />
+              <Courses />
+            </div>
+            <div id = "portfolio">
+              <Portfolio />
+              <Robot />
+            </div>
           </div>
           <Footer />
         </div>

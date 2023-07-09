@@ -3,32 +3,29 @@ import React, { Component } from 'react'
 export default class Footer extends Component {
     render() {
         return (
-            <footer className="footer text-center">
+            <footer className="footer text-center" id ="contact-me">
                     <div className="row">
-                    {/* Footer Location*/}
+                    {/* Footer Email*/}
                     <div className="col-lg-4 mb-5 mb-lg-0">
-                        <h4 className="text-uppercase mb-4">Location</h4>
+                        <h4 className="text-uppercase mb-4">Contact me</h4>
                         <p className="lead mb-0">
-                        2215 John Daniel Drive
-                        <br />
-                        Clark, MO 65243
+                        sarahsf@cs.washington.edu
                         </p>
                     </div>
                     {/* Footer Social Icons*/}
                     <div className="col-lg-4 mb-5 mb-lg-0">
-                        <h4 className="text-uppercase mb-4">Around the Web</h4>
-                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-facebook-f" /></a>
-                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-twitter" /></a>
-                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-linkedin-in" /></a>
-                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-dribbble" /></a>
+                        <h4 className="text-uppercase mb-4">Socials</h4>
+                        <a className="btn btn-outline-light btn-social mx-1" href="https://github.com/sarahfredrickson" target="_blank">
+                            <i className="fab fa-fw fa-github" /></a>
+                        <a className="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/sarah-savannah-fredrickson" target="_blank">
+                            <i className="fab fa-fw fa-linkedin-in" /></a>
                     </div>
                     {/* Footer About Text*/}
                     <div className="col-lg-4">
-                        <h4 className="text-uppercase mb-4">About Freelancer</h4>
                         <p className="lead mb-0">
-                        Freelance is a free to use, MIT licensed Bootstrap theme created by
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                        .
+                        Created by Sarah Fredrickson using React.js and this 
+                        <a href="https://startbootstrap.com/theme/freelancer" target="_blank"> Bootstrap template</a>,
+                        which is free to use under the MIT License.
                         </p>
                     </div>
                     </div>

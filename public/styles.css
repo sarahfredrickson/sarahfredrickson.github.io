@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #6f42c1;
-  --bs-link-hover-color: #6f42c1;
+  --bs-link-color: #fff;
+  --bs-link-hover-color: #e4b5ec;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -490,6 +490,16 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.description {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-left: 3rem;
+  margin-right: 1rem;
+  list-style-type: circle;
 }
 
 .display-1 {
@@ -4211,9 +4221,9 @@ progress {
   --bs-modal-inner-border-radius: 0.625rem;
   --bs-modal-header-padding-x: 1rem;
   --bs-modal-header-padding-y: 1rem;
-  --bs-modal-header-padding: 1rem 1rem;
+  --bs-modal-header-padding: 0rem 1rem;
   --bs-modal-header-border-color: var(--bs-border-color);
-  --bs-modal-header-border-width: 0.125rem;
+  --bs-modal-header-border-width: 0rem;
   --bs-modal-title-line-height: 1.5;
   --bs-modal-footer-gap: 0.5rem;
   --bs-modal-footer-bg: ;
@@ -9445,7 +9455,7 @@ html {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 2rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -9566,8 +9576,8 @@ html {
 
 
 .masthead {
-  padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -9577,13 +9587,13 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 27rem;
 }
 
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
