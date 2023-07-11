@@ -17,50 +17,54 @@ export default class Experience extends Component {
                 <div className=" ms-auto">
                 <p className="lead"> <b>Husky Robotics at University of Washington: </b> Feb 2023- Present 
                     <li className="description">
-                    For ~6 hours/week, collaborating in a team of about ~6 people to implement
-                    software for a robotic Mars rover’s controls. Using C++ for working with
-                    the rover’s hardware, and JavaScript for frontend work on the “mission control” 
-                    application used to control the rover.</li>
+                    Developing software for a robotic Mars rover with C++ for the rover’s hardware,
+                     and JavaScript for the “mission control” application used to control the rover.
+                     Collaborating with a team of ~6 other software team members for 6 hours/week 
+                     using GitHub.</li>
                     <li className="description">
-                    In C++, implemented a method to send the rover’s telemetry data from the
-                    CAN bus to be displayed on the “mission control” application.</li>
+                    Deployed functions in C++ to create and send packets of position 
+                    information to servo motors controlling the robotic hands on the 
+                    arm of the rover. </li>
                     <li className="description">
-                    In C++, implemented methods to create and send packets of position
-                    information to servo motors controlling the robotic hands on the arm of the rover.</li>
+                    Implemented a function in C++ to send the rover’s telemetry 
+                    data from the CAN bus to be displayed on the “mission control” application.</li>
                     <li className="description">
-                    In JavaScript, added controls to control the active suspension on the rover
-                    from a keyboard and Xbox controllers. A video of the active suspension in action
+                    Built controls in JavaScript to maneuver the active suspension of the rover from a 
+                    keyboard and Xbox controller. A video of the active suspension in action
                     is linked in the portfolio section! </li>
                     <li className="description">
                     Tested and debugged code directly on the rover. </li>
                 </p>
                 <p className="lead"> <b>Girls Who Code Summer Immersion Program </b> Teaching Assistant Jun 2023 - Aug 2023 
                     <li className="description">
-                    Along with 4 other teaching staff members, teaching a classroom of
-                    ~60 high school students beginner level coding
-                     skills. Teaching the p5 play javascript library in a game design curriculum. </li>
+                    Teaching a classroom of ~60 high school students beginner level coding skills with the p5 play JavaScript library in
+                    a game design curriculum. Instructing and hosting office hours for 35 hours/week alongside 4 other teaching staff.
+                    </li>
                     <li className="description">
-                    Personally instructing ~15 students in debugging, presenting, and confidence skills. </li>
+                    Personally instructing ~15 students in debugging, presenting, and confidence skills.  </li>
                     <li className="description">
-                    Spending 35 hours/week instructing students and hosting office hours to help students debug
-                    their game design projects. </li>
+                    Increasing student engagement in virtual learning by encouraging camera usage, vocal participation, and
+                    submitting assignments on time. Had one of the most engaged classrooms out of ~20 classrooms according to a
+                    classroom observer.
+                    </li>
                 </p>
                 <p className="lead"> <b>Social Futures Lab at the University of Washington </b> Undergraduate Research Assistant  Jan 2023 - Jun 2023
                     <li className="description">
-                    Studied how online communities support internet fact checkers under Dr. Amy Zhang and PhD student Jina Yoon.</li>
+                    Studied how online communities support internet fact checkers under Dr. Amy Zhang and Ph.D. student Jina Yoon.</li>
                     <li className="description">
-                    Research focused on how to improve the automated misinformation response tool, ARTT, more engaging to
-                    users by creating a community of fact checkers who use the product.</li>
+                    Researched how to make the automated misinformation response tool, <a href= "https://artt.cs.washington.edu/faq/" target="_blank">
+                    ARTT</a>, more engaging to users by creating a 
+                    community of fact checkers who use the product.</li>
                     <li className="description">
-                    Based on 8 interviews from prominent online fact checkers, prototyped in Figma
-                    3 community-based design choices to make the ARTT tool more engaging to users. </li>
+                    Prototyped 3 website design choices in Figma to make the ARTT tool more 
+                    engaging to users based on interviews of prominent online fact checkers. </li>
                 </p>
                 <p className="lead"> <b>Campus Path Web Application </b> CSE 331 Final Project May 2022 - Jun 2022 
                     <li className="description">
-                    Used Java and React to create a web application that highlights paths on a map of the University of
-                    Washington, Seattle campus given a start and end location. </li>
+                    Built a web application that highlights paths on a map of the University of Washington, 
+                    Seattle campus given a start and end location using React.js and Java. </li>
                     <li className="description">
-                    Used Java to create a spark server to give the application the location coordinate data and path coordinates.</li>
+                    Created a spark server in Java to give the application the location coordinate data and path coordinates.</li>
                 </p></div>
                 
                 </div>
