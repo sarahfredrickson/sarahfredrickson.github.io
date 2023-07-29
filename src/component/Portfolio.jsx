@@ -15,6 +15,17 @@ export default class Portfolio extends Component {
                     </div>
                     {/* Portfolio Grid Items*/}
                     <div className="row justify-content-center">
+                        {/* Robotics Portfolio*/}
+                        <div className="col-md-6 col-lg-4 mb-5">
+                            <div className="portfolio-item mx-auto">
+                            <a href = "https://docs.google.com/presentation/d/16Ntdy-pfwraMJkVZvjVJzHpV4CZWePwMItfEtx_DjUI/edit?usp=sharing" target="_blank">
+                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-external-link-alt fa-3x" /></div>
+                            </div>
+                            <img className="img-fluid" src="robotics portfolio.png" alt="Link to Google Slides of robotics portfolio presentation" />
+                            </a>
+                            </div>
+                        </div>
                         {/* ARTT Prototype Presentation*/}
                         <div className="col-md-6 col-lg-4 mb-5">
                             <div className="portfolio-item mx-auto">
@@ -24,15 +35,6 @@ export default class Portfolio extends Component {
                             </div>
                             <img className="img-fluid" src="artt-prototype.png" alt="Link to Google Slides of ARTT prototype presentation" />
                             </a>
-                            </div>
-                        </div>
-                        {/* Robot Video*/}
-                        <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#robot-video">
-                            <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-play fa-3x" /></div>
-                            </div>
-                            <img className="img-fluid" src="robot.png" alt="video of active suspension working" />
                             </div>
                         </div>
                         {/* Github Profile*/}

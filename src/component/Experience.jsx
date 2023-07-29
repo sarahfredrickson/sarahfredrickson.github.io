@@ -27,11 +27,11 @@ export default class Experience extends Component {
                     arm of the rover. </li>
                     <li className="description">
                     Implemented a function in C++ to send the rover’s telemetry 
-                    data from the CAN bus to be displayed on the “mission control” application.</li>
+                    data through the CAN bus to be displayed on the “mission control” application.</li>
                     <li className="description">
                     Built controls in JavaScript to maneuver the active suspension of the rover from a 
                     keyboard and Xbox controller. A video of the active suspension in action
-                    is linked in the portfolio section! </li>
+                    is linked in my robotics portfolio slideshow! </li>
                     <li className="description">
                     Tested and debugged code directly on the rover. </li>
                 </p>
