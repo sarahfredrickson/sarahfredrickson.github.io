@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import About from './component/About'
-import Robot from './component/Robot-Video'
 import Courses from './component/Courses'
 import Experience from './component/Experience'
 import Footer from './component/Footer'
@@ -24,7 +23,6 @@ class App extends Component {
             </div>
             <div id = "portfolio">
               <Portfolio />
-              <Robot />
             </div>
           </div>
           <Footer />

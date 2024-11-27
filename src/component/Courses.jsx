@@ -15,20 +15,22 @@ export default class Courses extends Component {
                 {/* Courses Section Content*/}
                 <div className="row">
                 <div className= "col-lg-6 me-auto">
-                <p className="lead"> To be completed Fall 23: <b>Intro to Algorithms (CSE 421), Intro to
-                    Embedded Systems (CSE 474), Intro to Differential Equations (MATH 207)</b></p>
-                <p className="lead"> <b>Systems Programming (CSE 333) </b> UW Spring 23 </p>
-                <p className="lead"> <b>Linear Algbera (MATH 208) </b> UW Spring 23 </p>
-                <p className="lead"> <b>Data Structures and Parallelism (CSE 332) </b> UW Winter 23 </p>
-                <p className="lead"> <b>Foundations of Computing 2 (CSE 312) </b> UW Winter 23 </p>
+                <p className="lead"> <b>Animation Capstone Program </b> UW 24 - 25 </p>
+                <p className="lead"> <b>Intro to Computer Communication Networks (CSE 461) </b> UW Fall 24 </p>
+                <p className="lead"> <b>Computer Graphics (CSE 457)</b> UW Spring 24</p>
+                <p className="lead"> <b>Intro to Operating Systems (CSE 451) </b> UW Spring 24 </p>
+                <p className="lead"> <b>Intro to Machine Learning (CSE 446) </b> UW Winter 24 </p>   
+                <p className="lead"> <b>Intro to Algorithms (CSE 421)</b> UW Fall 23</p>
             
                 </div> 
                 <div className= "col-lg-6 me-auto">
+                <p className="lead"> <b>Systems Programming (CSE 333) </b> UW Spring 23 </p>
+                <p className="lead"> <b>Data Structures and Parallelism (CSE 332) </b> UW Winter 23 </p>
+                <p className="lead"> <b>Foundations of Computing 2 (CSE 312) </b> UW Winter 23 </p>
                 <p className="lead"> <b>Foundations of Computing 1 (CSE 311) </b> UW Autumn 22 </p>
                 <p className="lead"> <b>The Hardware/Software Interface (CSE 351) </b> UW Autumn 22 </p>
                 <p className="lead"> <b>Software Design and Implementation (CSE 331) </b> UW Spring 22 </p>
-                <p className="lead"> <b>Computer Programming 1 & 2 (CSE 142 & 143) </b> UW Autumn 22 & Winter 23 </p>
-                <p className="lead"> <b>Calculus 1,2, & 3 (MATH 124, 125, 126) </b> UW Autumn 22- Spring 23 </p>
+            
                
                 </div> </div>
                 

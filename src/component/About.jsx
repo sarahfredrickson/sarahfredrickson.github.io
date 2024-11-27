@@ -15,13 +15,10 @@ export default class About extends Component {
                 {/* About Section Content*/}
                 <div className="text-center">
                 <p className="lead">
-                Hi! I'm Sarah, and I am a junior computer science undergraduate at the University of Washington. My favorite
-                class so far has to be Systems Programming-- I enjoyed working on the lower level and learning how to communicate
-                with the OS!
+                Hi! I'm Sarah, and I am a senior computer science undergraduate at the University of Washington. I enjoy backend programming, computer graphics, and 3D animation!
 
                 Outside of classes, I am an active member on my school's robotics team (Husky Robotics), where I 
-                work in software developement. I most enjoy working with hardware on our robotic rover, and
-                so I am looking to learn more about backend/systems development!
+                work in software developement. I am also in my school's animation capstone program where we learn about 3D animation in Maya and the animation production pipeline!
                 </p>
                 </div>
             </section>

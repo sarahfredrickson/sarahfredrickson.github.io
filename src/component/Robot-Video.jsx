@@ -11,9 +11,14 @@ export default class Portfolio extends Component {
                     <div className="container">
                     <div className="row justify-content-center">
                         {/* Portfolio Modal - Video*/}
-                        <iframe src="active-suspension.mp4"
-                        height="480rem"
-                        alt="video of active suspension working" /> 
+                        <iframe width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/Y_iR59kZ_tk?si=TBjICJ5ZNj_NlNJz" 
+                        title="YouTube video player" 
+                        frameborder="0"
+                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                         referrerpolicy="strict-origin-when-cross-origin" 
+                         allowfullscreen></iframe>
                     </div>
                     </div>
                 </div>

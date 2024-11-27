@@ -47,7 +47,18 @@ export default class Portfolio extends Component {
                             <img className="img-fluid" src="GitHub-Mark.png" alt="Link to my github page" /> </a>
                             </div>
                         </div>
-                        
+                        {/* Github Profile*/}
+                        <div className="col-md-6 col-lg-10 mb-5">
+                            <div className="mx-auto">
+                            <iframe width="560" 
+                            height="315" 
+                            src="https://www.youtube.com/embed/Y_iR59kZ_tk?si=TBjICJ5ZNj_NlNJz" 
+                            title="YouTube video player" 
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen></iframe>                         </div>
+                        </div>
                     </div>
                 </div>
             </section>
